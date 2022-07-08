@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EstructuralPatterns\" />
     <Folder Include="BehaivorPatterns\" />
+    <Folder Include="EstructuralPatterns\4.Decrator\" />
   </ItemGroup>
 
 </Project>
