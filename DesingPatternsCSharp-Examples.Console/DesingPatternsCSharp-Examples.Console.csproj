@@ -8,9 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="BehaivorPatterns\" />
-    <Folder Include="EstructuralPatterns\4.Decrator\" />
-  </ItemGroup>
-
 </Project>
