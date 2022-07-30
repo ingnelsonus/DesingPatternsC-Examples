@@ -47,8 +47,8 @@ namespace Example1_Producto_Observer
 
         public void Notificar()
         {
-            foreach (var usuario in _usuarios)
-                usuario.Actualizar();
+            //foreach (var usuario in _usuarios)
+                //usuario.Actualizar();
         }
 
         public void Quitar(IObserverUsuario usuario)

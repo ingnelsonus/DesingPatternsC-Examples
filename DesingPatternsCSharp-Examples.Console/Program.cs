@@ -12,6 +12,8 @@ using FlyWeight;
 using Proxy;
 using Iterator;
 using command;
+using Strategy;
+using ChainOfResponsability;
 
 
 ///////////////////////////////Patrones Creacionales/////////////////////////////////////////////
@@ -95,3 +97,12 @@ using command;
 //4. Templete Method
 //Example1_OrdenCompra example = new Example1_OrdenCompra();
 //example.Run();
+
+
+//5. Strategy
+//Example1_Juego example = new Example1_Juego();
+//example.Run();
+
+//6. ChainOfResponsability
+Example1_Compra example = new Example1_Compra();
+example.Run();
