@@ -14,6 +14,8 @@ using Iterator;
 using command;
 using Strategy;
 using ChainOfResponsability;
+using Mediator;
+using memento;
 
 
 ///////////////////////////////Patrones Creacionales/////////////////////////////////////////////
@@ -104,5 +106,13 @@ using ChainOfResponsability;
 //example.Run();
 
 //6. ChainOfResponsability
-Example1_Compra example = new Example1_Compra();
+//Example1_Compra example = new Example1_Compra();
+//example.Run();
+
+//7. Mediator
+//Example1_Chat example = new Example1_Chat();
+//example.Run();
+
+//8. Memento
+Example1 example = new Example1();
 example.Run();
